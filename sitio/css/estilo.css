@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     
+    
+    
 }
 
 
@@ -13,17 +15,197 @@
 
 header.hero{
     
-    background: #123a52;
-    color: #fff;
-    height: 600px;
+    background: #444;
+    color: #ffcc00;
+    height: 750px;
     padding: 100px;
     box-sizing: border-box;
     text-align: center;
+    box-shadow: 4px 20px 35px #666;
 }
 
 header.hero h1{
-    font-size: 3em;
+    font-size: 5em;
     font-family: sans-serif;
 }
 
+.dos{
+    font-size: 3em;
+    font-family: sans-serif;
+}
     
+
+
+
+
+
+
+header.hero a{
+    
+    display: block;
+    width: 200px;
+    height: 60px;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    margin: 80px auto;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 1.4em;
+    text-decoration: none;
+    line-height: 2.5em;
+}
+
+header.hero a:hover{
+    background: #fff;
+    color: #ffcc00;
+}
+
+
+
+
+
+header.hero .fa{
+    display: block;
+    font-size: 7em;
+    color: #fff;
+    line-height: 2;
+    
+}
+
+
+header.hero2{
+    
+    background: #444;
+    color: #ffcc00;
+    height: 300px;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 4px 20px 35px #666;
+}
+
+header.hero2 h1{
+    font-size: 5em;
+    font-family: sans-serif;
+}
+
+
+.descripcion{
+    background: #ffcc00;
+    color: #444;
+    height: 500px;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 4px 20px 35px #666;
+    
+    
+}
+
+
+/*TÓPICOS*/
+
+
+.topicos{
+ 
+    text-align: center;
+    color: #666;    
+}
+
+
+
+
+
+
+.topicos .fa{
+    
+    font-size: 3em;
+    color: #fff;
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    border: 6px solid #ffcc00;
+    line-height: 1.7em;
+    border-radius: 50%;
+    background: #ffcc00;
+    display: block;
+}
+
+
+.topicos .titulo{
+    font-family: Arial, sans-serif;
+    font-size: 3 em;
+}
+
+
+.topicos.desc{
+    
+    color: #666;
+    font-size: 1.2 em;
+    margin: 10px;
+}
+
+
+.topicos{
+    padding: 80px;
+    overflow: hidden;
+}
+
+.topicos .topi{
+    width: 16.6%;
+float: left;
+display: block;
+}
+
+    
+
+section.boton{
+    background: #666;
+    padding: 80px 0;
+}
+
+section.boton .topi .titulo{
+    color: #fff;
+    font-size: 2em;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+
+section.boton .topi .fa{
+    
+   font-size: 3em;
+    color: #fff;
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    border: 6px solid #ffcc00;
+    line-height: 1.7em;
+    border-radius: 50%;
+    background: #ffcc00;
+    display: block;
+    text-decoration: none;
+
+}
+
+
+
+@media (max-width: 800px){
+    header.hero2{background: #000;}
+    
+header.hero h1{
+    font-size: 2em;
+}
+    header.hero h1 .fa{
+        font-size: 2em;}
+    
+    header.hero a{
+        background: #fff;
+        color: #000;
+    }
+
+    
+.topicos .topi{
+    width: 50%;}
+    
+}
